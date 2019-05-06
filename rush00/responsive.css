@@ -1,0 +1,230 @@
+html {
+	height : 100%
+}
+body {
+	margin: auto;
+	height : 100%;
+	background-color: aliceblue;
+	background-image: url("https://i.ytimg.com/vi/GfLAmutS-8c/maxresdefault.jpg");
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	-moz-background-size: 100%;
+	-webkit-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+header {
+	width: 100%;
+	height: 10%;
+	background-color: #c4d1be;
+	background-image: url("http://www.elsetge.cat/imagepost/b/22/221870_gravity-falls-wallpaper.png");
+	background-size: 75vw;
+	/*background-position-y: bottom;*/
+	/*background-position-x: 60%;*/
+	background-position: center;
+
+	display: flex;
+	background-repeat: no-repeat;
+	text-align: center;
+	align-items: center;
+	position: absolute;
+	top:0px;
+}
+
+
+.logo {
+	width: 18vw;
+	height: 80%;
+	position: relative;
+	top: 10%;
+}
+
+.move {
+	padding-top: 4%;
+	padding-right: 10%;
+	padding-left: 5%;
+	font-size: 1vw;
+}
+
+.trash {
+	position: relative;
+	width: 13vw;
+	height: 100%;
+	/*top: 10%;*/
+	/*bottom: 5px;*/
+	float: left;
+
+}
+
+.dropdown-trash-content{
+	display: none;
+	position: absolute;
+	text-align: right;
+}
+
+.trash:hover .dropdown-trash-content{
+	display: block;}
+.move:hover {
+	background-size: 50%;
+	opacity: 0.6;
+	text-align: center;
+
+}
+
+
+.text_ent{
+	text-align: center;
+	color: darkblue;
+	text-transform: uppercase;
+	font-family: fantasy;
+	display: inline-block;
+
+}
+
+.menu {
+	top: 15%;
+	display: inline-block;
+	width: 100vw;
+	position: relative;
+
+}
+
+.dropdown{
+	position: relative;
+	height: 10%;
+	display: inline-block;
+}
+
+.catalog
+{
+	height: inherit;
+}
+
+.content {
+	opacity: 0.8;
+	position: relative;
+	top: 10%;
+	width: 100%;
+	height: 90%;
+	align-items: center;
+
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	/*height: 10%;*/
+}
+
+.dropdown-content h1{
+	color: darkblue;
+	/*padding: 12px 16px;*/
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;}
+
+
+.col-1-3 {
+	/*width: 33.3333333333%;*/
+	float: left;
+	margin: 1vw;
+	width: 30vw;
+	text-align: end;
+}
+
+.image {
+	width: 27vw;
+	height: 13vw;
+	/*float: ;*/
+	/*margin: auto;*/
+}
+.image:hover{
+
+}
+
+
+.container {
+	width: 100%;
+	max-width: 1024px;
+	padding: 15px;
+	margin: 0 auto;
+}
+.col-1-3 h3{
+	font-family: fantasy;
+	color: floralwhite;
+	text-align: end;
+}
+
+.col-1-3 h4{
+	font-family: fantasy;
+	color: red;
+	text-align: center;
+	/*display: inline;*/
+}
+
+.col-1-3 button{
+	display: inline;
+	color: floralwhite;
+	text-align: center;
+	font-size: large;
+	background: #8097ed;
+	border: none;
+	font-family: fantasy;
+	border-radius: 3px;
+}
+.col-1-3 button:hover{
+	background: #ff2a4e;
+	outline: none;
+	border: none;
+	border-radius: 3px;
+	}
+
+.enter {
+	width: 50vw;
+	position: relative;
+	left: 15vw;
+	top: 25%;
+
+}
+
+.enter,.admin_panel h1, h2{
+	display: block;
+	font-family: fantasy;
+	color: cornflowerblue;
+	text-align: center;
+
+}
+
+
+.admin_panel h2:hover{
+	color: deeppink;
+}
+
+.admin_panel a{
+	text-decoration: none;
+}
+
+.admin_panel{
+	position: relative;
+	top: 25%;
+	/*left: 25vw;*/
+}
+
+.exit {
+	text-align: center;
+	color: darkblue;
+	text-transform: uppercase;
+	font-family: fantasy;
+	display: inline-block;
+}
+.exit h1:hover{
+	color: deeppink;
+}
+
+
